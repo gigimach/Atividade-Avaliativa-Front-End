@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top 10 Melhores Séries</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <header class="row">
+      <div class="bg-secondary text-white text-center">
+        <h1 class>Top 10 Melhores Séries</h1>
+        <hr>
+      </div>
+
+      <!--"navs" dentro da div-->
+      <div>
+        <nav class="navbar navbar-expand-md navbar-light bg-light ">
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Séries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Filmes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quem somos</a>
+            </li>
+
+          </ul>
+          <!--formulário de busca no google-->
+          <form action="http://www.google.com/search" method="get">
+            <input type="text" name="q">
+            <input type="submit" name="enviar" value="Buscar">
+          </form>
+
+        </nav>
+      </div>
+    </header>
+
+
+    <!--sessão de fotos com carrousel-->
+    <div class="row">
+      <div style="height: 40%; width: 100%;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagens/game_of_thrones.jpg" class="d-block w-100" alt="capa Game Of Thrones">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/the_boys.png" class="d-block w-100" alt="capa The Boys">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/the_office.jpg" class="d-block w-100" alt="capa The Office">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/you.jpg" class="d-block w-100" alt="capa You">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/the_good_place.jpg" class="d-block w-100" alt="capa The Good Place">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-8">
+        <!-- removemos as calhas de grade com e usamos classes para tornar o cartão horizontal no ponto de interrupção. 
+                    Outros ajustes podem ser necessários, dependendo do conteúdo do seu cartão..g-0.col-md-*md-->
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="imagens/game_of_thrones.jpg" class="img-fluid rounded-start"
+                alt="capa da série Game Of Thrones">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"><a id="1">1. Game Of Thrones</a></h5>
+                <p class="card-text">Game of Thrones conta a históra de um lugar onde uma força destruiu o equilíbrio
+                  das estações, há muito tempo. Em uma terra onde os verões podem durar vários anos e o inverno toda uma
+                  vida, as reivindicações e as forças sobrenaturais correm as portas do Reino dos Sete Reinos. A
+                  irmandade da Patrulha da Noite busca proteger o reino de cada criatura que pode vir de lá da Muralha,
+                  mas já não tem os recursos necessários para garantir a segurança de todos. Depois de um verão de dez
+                  anos, um inverno rigoroso promete chegar com um futuro mais sombrio. Enquanto isso, conspirações e
+                  rivalidades correm no jogo político pela disputa do Trono de Ferro, o símbolo do poder absoluto.</p>
+                <p class="card-text"><small class="text-muted"><span class="cinza">Temporadas</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">8</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="cinza">Episódios</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">73</span></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="imagens/the_boys.png" class="img-fluid rounded-start" alt="capa da série The Boys">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"><a id="2">2. The Boys</a></h5>
+                <p class="card-text">Em The Boys, quando a fama sobe à cabeça, alguns super-heróis passam a se corromper
+                  e usar seu status para se promoverem ainda mais, o que pode colocar em risco a própria população. Uma
+                  equipe independente de foras-da-lei, então, se prepara para cuidar do caso. Conhecidos como "Os
+                  Meninos", Billy Butcher (Karl Urban) e seus companheiros têm a missão de vigiar o trabalho dessas
+                  personalidades, assim como controlar o surgimento de novos heróis.</p>
+                <p class="card-text"><small class="text-muted"><span class="cinza">Temporadas</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">4</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="cinza">Episódios</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">24</span></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="imagens/sherlock.jpg" class="img-fluid rounded-start" alt="capa da série Sherlock">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"><a id="3">3. Sherlock</a></h5>
+                <p class="card-text">O dr. John Watson precisa de um lugar para morar em Londres. Ele é apresentado ao
+                  detetive Sherlock Holmes e os dois acabam desenvolvendo uma parceria intrigante, na qual a dupla
+                  vagará pela capital inglesa solucionando assassinatos e outros crimes brutais. Tudo isso em pleno
+                  século XXI.</p>
+                <p class="card-text"><small class="text-muted"><span class="cinza">Temporadas</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">4</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="cinza">Episódios</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">14</span></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="imagens/you.jpg" class="img-fluid rounded-start" alt="capa da série Você">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"><a id="4">4. Você</a></h5>
+                <p class="card-text">Você conta a história de Guinevere Beck (Elizabeth Lail), uma aspirante a
+                  escritora, que vê sua vida mudar completamente ao entrar em uma livraria no East Village, onde conhece
+                  o charmoso gerente, Joe Goldberg (Penn Badgley). Assim que a conhece, Joe tem certeza de que ela é a
+                  garota dos seus sonhos, e fará de tudo para conquistá-la — usando a internet e as redes sociais para
+                  descobrir tudo sobre Beck. O que poderia ser visto como paixão se transforma em uma obsessão perigosa,
+                  uma vez que Joe não vai medir esforços para tirar de seu caminho tudo e todos que podem ameaçar seus
+                  objetivos. </p>
+                <p class="card-text"><small class="text-muted"><span class="cinza">Temporadas</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">4</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="cinza">Episódios</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">10</span></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="imagens/black_mirror.jpg" class="img-fluid rounded-start" alt="capa da série Black Mirror">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"><a id="5">5. Black Mirror</a></h5>
+                <p class="card-text">Uma espécie de híbrido entre "The Twilight Zone" e "Tales of the Unexpected", Black
+                  Mirror explora sensações do mal-estar contemporâneo. Cada episódio conta uma história diferente,
+                  traçando uma antologia que mostra o lado negro da vida atrelada à tecnologia.</p>
+                <p class="card-text"><small class="text-muted"><span class="cinza">Temporadas</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">6</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="cinza">Episódios</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">24</span></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="imagens/the_office.jpg" class="img-fluid rounded-start" alt="capa da série The Office">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"><a id="6">6. The Office</a></h5>
+                <p class="card-text">No mesmo formato de pseudodocumentário da série britânica, The Office retrata o
+                  cotidiano de um escritório em Scranton, na Pensilvânia. Filial da empresa fictícia Dunder Mifflin, os
+                  funcionários tem como função vender o suprimento de papel fornecido pela companhia. Michael Scott
+                  (Steve Carell), gerente da franquia, é um chefe incoerente e imaturo mas que se preocupa com o bem
+                  estar de seus empregados. Assim, The Office traça um olhar cômico e honesto sobre seus personagens,
+                  destacando suas diferenças e particularidades e como isso afeta a convivência diária durante o
+                  trabalho. Embora, à princípio, não exista um laço emocional muito forte entre eles, aos poucos
+                  amizades são formadas e os funcionários da Dunder Mifflin se tornam uma espécie de segunda família.
+                  Entre as relações mais memoráveis de The Office está o casal Jim (John Krasinski), um vendedor, e Pam
+                  (Jenna Fischer), a recepcionista. Ao longo das temporadas, a adorável amizade entre os dois se
+                  transforma em um intenso amor romântico.</p>
+                <p class="card-text"><small class="text-muted"><span class="cinza">Temporadas</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">9</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="cinza">Episódios</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">196</span></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="imagens/dr_house.webp" class="img-fluid rounded-start" alt="capa da série House">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"><a id="7">7. House</a></h5>
+                <p class="card-text">O cientista House (Hugh Laurie) é especializado em infectologia e nefrologia,
+                  realiza excelentes diagnósticos mantendo uma postura cética, distanciada e até mesmo mau humorada com
+                  os pacientes do fictício hospital de Princeton-Plainsboro. Ele trabalha com uma equipe de médicos
+                  selecionada de acordo com critérios duvidosos na busca de soluções para os piores males relacionados à
+                  saúde.</p>
+                <p class="card-text"><small class="text-muted"><span class="cinza">Temporadas</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">8</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="cinza">Episódios</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">177</span></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="imagens/the_walking_dead.jpg" class="img-fluid rounded-start"
+                alt="capa da série The Walking Dead">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"><a id="8">8. The Walking Dead</a></h5>
+                <p class="card-text">Em The Walking Dead, depois de ser baleado e passar meses em coma, o xerife Rick
+                  Grimes (Andrew Lincolm) acorda sozinho em um hospital deserto. Para sua surpresa, o mundo como
+                  conhecia deixou de existir depois que um perigoso vírus provoca uma infestação de zumbis na cidade de
+                  Cynthiana, em Kentucky, nos Estados Unidos. Desesperado, Rick enfrenta a estranha ameaça na
+                  expectativa de reencontrar a mulher Lori (Sarah Wayne Callies) e o filho Cal (Chandler Riggs). Ele
+                  decide unir-se aos homens e mulheres sobreviventes para que tenham mais força para combater o fenômeno
+                  que os atinge.</p>
+                <p class="card-text"><small class="text-muted"><span class="cinza">Temporadas</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">11</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="cinza">Episódios</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">171</span></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="imagens/the_good_place.jpg" class="img-fluid rounded-start" alt="capa da série The Good Place">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"><a id="9">9. The Good Place</a></h5>
+                <p class="card-text">Eleanor Shellstrop (Kristen Bell) está morta. Acontece que, após sua partida, ela
+                  foi enviada ao "Good Place - ou "Lugar Bom" -, um lugar de eterna felicidade destinado às pessoas que
+                  fizeram o bem durante suas vidas. Lá, todos são bons e encontram as suas almas gêmeas, com quem
+                  passarão o resto da eternidade. Mas tudo isso não passa de um acidente: Eleanor não merece estar lá. E
+                  agora, será que ela vai conseguir esconder a verdade de Michael (Ted Danson), que coordena a
+                  vizinhança, ou será eventualmente enviada ao "Bad Place"?</p>
+                <p class="card-text"><small class="text-muted"><span class="cinza">Temporadas</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">4</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="cinza">Episódios</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">51</span></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="imagens/outlander.jpg" class="img-fluid rounded-start" alt="capa de Outlander">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"><a id="10">10. Outlander</a></h5>
+                <p class="card-text">Outlander conta a história de Claire Randall (Caitriona Balfe), uma enfermeira em
+                  combate no ano de 1945. Ela é misteriosamente transportada através do tempo e mandada para 1743, e sua
+                  vida passa a correr riscos que ela desconhece. Forçada a se casar com Jamie Fraser (Sam Heughan), um
+                  cortês e nobre guerreiro escocês. Um relacionamento apaixonado se acende, e deixa o coração de Claire
+                  dividido entre dois homens completamente diferentes, em duas vidas que não podem ser conciliadas.</p>
+                <p class="card-text"><small class="text-muted"><span class="cinza">Temporadas</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">7</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="cinza">Episódios</span></small></p>
+                <p class="cart-text"><small class="text-muted"><span class="roxo">67</span></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <aside class="col-md-2">
+        <div class="card text-black bg-light mb-3">
+          <div class=" card-body">
+            <h5 class="card-title">menu</h5>
+
+            <!--links verticais-->
+            <ul class="card-text">
+              <li><a href="#1">#top 1</a></li>
+              <li><a href="#2">#top 2</a></li>
+              <li><a href="#3">#top 3</a></li>
+              <li><a href="#4">#top 4</a></li>
+              <li><a href="#5">#top 5</a></li>
+              <li><a href="#6">#top 6</a></li>
+              <li><a href="#7">#top 7</a></li>
+              <li><a href="#8">#top 8</a></li>
+              <li><a href="#9">#top 9</a></li>
+              <li><a href="#10">#top 10</a></li>
+              <li><a href="#onde_assistir">#onde assistir</a></li>
+
+            </ul>
+
+
+          </div>
+        </div>
+      </aside>
+    </div>
+    <!--fim da row-->
+  
+
+    <!--tabela com cores alternadas e filtragem-->
+    <div class="row">
+      <h3><a id="onde_assistir">Onde assistir</a></h3>
+      <p>Digite algo no campo de entrada para pesquisar na tabela por séries ou sites:</p>
+      <input class="form-control" id="myInput" type="text" placeholder="Search..">
+      <br>
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>Série</th>
+            <th>Assistir em:</th>
+          </tr>
+        </thead>
+        <tbody id="myTable">
+          <tr>
+            <td>Game Of Thrones</td>
+            <!--navegação: link horizontal-->
+            <td><a
+              href="https://www.hbomax.com/br/pt/series/urn:hbo:series:GVU2cggagzYNJjhsJATwo?countryRedirect=1&utm_id=sa|71700000084755891|58700007207969912|p67955738142&gclid=d1cd0ab27fb11c635af4693405072e7b&gclsrc=3p.ds&msclkid=d1cd0ab27fb11c635af4693405072e7b">Hbomax
+            </a></td>
+
+          </tr>
+          <tr>
+            <td>The Boys</td>
+            <td><a href="https://www.primevideo.com/detail/amzn1.dv.gti.292e4408-aade-494c-84fa-b8950d3e9418?ref_=dvm_pds_tit_br_dc_s_b_mkw_sevkAGYWc-dc_pcrid_&mrntrk=slid__pgrid_1230353762058229_pgeo_678_x__ptid_kwd-76897313772197:loc-20">Prime
+                video</a></td>
+
+          </tr>
+          <tr>
+            <td>Sherlock</td>
+            <td><a href="https://www.primevideo.com/detail/Sherlock/0Q18NAAMP9UE0PPFAHTTUE2XOL">Primevideo</a></td>
+
+          </tr>
+          <tr>
+            <td>Você</td>
+            <td><a href="https://www.netflix.com/br/title/80211991">Netflix</a></td>
+
+          </tr>
+
+          <tr>
+            <td>Black Mirror</td>
+            <td><a href="https://www.netflix.com/br/title/70264888">Netflix</a></td>
+
+          </tr>
+
+          <tr>
+            <td>The Office</td>
+            <td><a href="https://www.primevideo.com/detail/The-Office/0H7JFOPK2QO9WVZ8D9D0J5ZRQN">Primevideo</a></td>
+
+          </tr>
+
+          <tr>
+            <td>House</td>
+            <td><a href="https://globoplay.globo.com/house/t/G8gLCwkkLr/">Globoplay</a></td>
+
+          </tr>
+
+          <tr>
+            <td>The Walking Dead</td>
+            <td><a href="https://www.netflix.com/br/title/70177057">Netflix</a></td>
+
+          </tr>
+
+          <tr>
+            <td>The Good Place</td>
+            <td><a href="https://www.netflix.com/br/title/80113701">Netflix</a></td>
+
+          </tr>
+
+          <tr>
+            <td>Outlander</td>
+            <td><a href="https://www.starplus.com/pt-br/series/outlander/7W66gn9IGR7S">Starplus</a></td>
+
+          </tr>
+        </tbody>
+      </table>
+
+
+    </div>
+
+    <footer class="row">
+      <div class="bg-secondary text-white">
+        <p>&copy; todos os direitos reservados</p>
+        <a href="#" class="link-light">Topo da página</a></p>
+      </div>
+    </footer>
+
+  </div>
+
+
+
+
+
+  <script>
+    $(document).ready(function () {
+      $("#myInput").on("keyup", function () {
+        var value = $(this).val().toLowerCase();
+        $("#myTable tr").filter(function () {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>

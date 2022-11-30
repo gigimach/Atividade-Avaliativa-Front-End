@@ -1,0 +1,21 @@
+h1{
+    text-align:center;
+    padding: 50px;
+   
+}
+.cinza{
+    color: gray;
+}
+.roxo{   
+    color:rgb(93, 93, 228)
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.carousel-inner > img {
+    width: 10%;     
+}
